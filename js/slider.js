@@ -92,7 +92,7 @@ sliderItems.forEach(item=>{
         el.querySelector('.progress-bar').style.width='0px';
 
         item.classList.add('js-selected');
-        sliderImage.style.backgroundImage = 'url(/img/intro/'+item.dataset.img+')';
+        sliderImage.style.backgroundImage = 'url(img/intro/'+item.dataset.img+')';
     })
 })
 
@@ -126,7 +126,7 @@ function switchItem(element, i) {
     }
     newElement.classList.add('js-selected');
     let img = newElement.dataset.img;
-    sliderImage.style.backgroundImage = 'url(/img/intro/'+img+')';
+    sliderImage.style.backgroundImage = 'url(img/intro/'+img+')';
 }
 
 
